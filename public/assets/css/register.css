@@ -1,0 +1,193 @@
+
+
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+
+body{
+  margin:0px;
+  
+background: linear-gradient(135deg, #153677, #4e085f);
+padding: 0px;
+}
+
+/*----notes------*/
+#blog{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 40px;
+  border-bottom: 1px solid rgb(0,0,0.05);
+
+}
+.blog-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.blog-heading span{
+  color: antiquewhite;
+  font-size: 2.4rem;
+  font-weight: 600;
+
+}
+.blog-heading img{
+  width: 40px;
+    margin-left: 10px;
+}
+#blog-navigation{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 40px;
+  border-bottom: 1px solid rgb(0,0,0.05);
+}
+
+/*----------------------------navigation logout newpost--------------*/
+.nav-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+}
+.nav-content button{
+  font-size: 40px;
+  border-radius: 10px;
+  background-color: rgb(245, 234, 241);
+  color: #153677;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.nav-content button:hover{
+  background-color: #4e085f;
+  cursor: pointer;
+}
+.nav-content a{
+  font-size: 40px;
+  color: antiquewhite;
+  margin-right: 10px;
+}
+/*------------------------------------general container------------------------*/
+.blog-container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+ 
+}
+
+.blog-box{
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 128px 0 rgba(239, 235, 235, 0.1),
+              0 32px 64px -48px rgb(0,0,0,0,5);
+              width: 40%;
+}
+
+.blog-box header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(55, 42, 197);
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.no-post{
+  font-size: 50px;
+}
+/*---------------------login------------------------------*/
+
+.login .loginclass{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 10px 0 10px 0;
+}
+
+.loginclass .field input{
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding: 8px;
+  margin-top:12px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px soild #ccc;
+  outline:none;
+}
+.loginclass a{
+  color: aliceblue;
+}
+.field label{
+  color: aliceblue;
+}
+
+.login button {
+  width: 100%;
+  padding: 8px;
+  margin-top:12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+.login button:hover {
+  opacity: 0,82;
+  background-color: #6335ce;
+}
+
+/*---------------------posts---------------------------------------*/
+.post-button{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.post-button button{
+  border-radius: 5px;
+  background-color: #266af1;
+  margin-right: 5px;
+}
+.post-button button:hover{
+  background-color: #6335ce;
+  cursor: pointer;
+}
+.post-button button,p{
+  font-size: 18px;
+}
+.post{
+  margin-top: 5px;
+  border-bottom: 1px solid #153677;
+  border-radius: 8px;
+  background-color: aliceblue
+}
+.post h3,p{
+  margin-left: 5px;
+}
+
+
+
+
+  
+  
+  
+
+  
+ 
+  
